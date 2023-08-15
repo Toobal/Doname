@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Donacristobal - Página de Donaciones</title>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>¡Apoya a nuestra causa!</h1>
+        <p>Tu generosidad nos ayuda a seguir adelante. Por favor, ingresa el monto que deseas donar:</p>
+        <form action="procesar_pago.php" method="post">
+            <label for="monto">Monto de la donación:</label>
+            <input type="number" id="monto" name="monto" step="0.01" required>
+            <button type="submit">Realizar Donación</button>
+        </form>
+        <div class="datos-donacion">
+            <div class="cuadro-negro">
+                <p>Nombre: Cristobal Provoste</p>
+                <p>Cuenta Rut: 22012752</p>
+                <p>RUT: 22.012.752-4</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
